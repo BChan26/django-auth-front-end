@@ -1,1 +1,1 @@
-# django-auth-front-end
+# A Basic React Front End to attach to our Django Front Ends
