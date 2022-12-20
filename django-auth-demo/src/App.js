@@ -22,12 +22,15 @@ function App() {
     return (
       <div className="App">
         <header className="App-header">
-          <h2> Django React Auth Lesson </h2>
+          <h1> Django React Auth Lesson </h1>
         </header>
   
         <div>
-        {data.map((song) => (
-          <h2> {song.name} </h2>
+        {data.map((artist) => (
+          <div>
+          <h3> {artist.name} </h3>
+          <h5> {artist.nationality} </h5>
+          </div>
         ))}
       </div>
       
